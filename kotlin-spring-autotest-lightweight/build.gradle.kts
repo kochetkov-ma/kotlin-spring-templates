@@ -6,8 +6,8 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_2
 plugins {
     kotlin("jvm")
     id("idea")
-    id("org.springframework.boot") apply true
-    id("org.jetbrains.kotlin.plugin.spring") apply true
+    id("org.springframework.boot") apply false
+    id("org.jetbrains.kotlin.plugin.spring") apply false
 }
 
 apply(plugin = "org.jetbrains.kotlin.jvm")
