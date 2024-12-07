@@ -87,10 +87,10 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-test")
     implementation("org.springframework.boot:spring-boot")
     // Spring Modules //
+    testImplementation("org.springframework:spring-test")
     implementation("org.springframework:spring-context")
     implementation("org.springframework:spring-core")
     implementation("org.springframework:spring-beans")
-    implementation("org.springframework:spring-test")
     implementation("org.springframework:spring-aop")
     implementation("org.springframework:spring-expression")
     // Junit //
