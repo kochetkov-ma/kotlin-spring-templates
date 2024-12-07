@@ -99,7 +99,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     testRuntimeOnly("org.junit.platform:junit-platform-engine")
-    testImplementation("org.junit.platform:junit-platform-commons")
+    testRuntimeOnly("org.junit.platform:junit-platform-commons")
     // Other //
     implementation("org.slf4j:slf4j-api")
     implementation("org.yaml:snakeyaml")
